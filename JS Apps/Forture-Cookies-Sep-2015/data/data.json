@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "username": "Minkov",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "minkov",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+    },
+    {
+      "username": "Minkov3",
+      "passHash": "1234567890123456789012345678901234567890",
+      "usernameToLower": "minkov3",
+      "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+    },
+    {
+      "username": "kaizer",
+      "passHash": "123",
+      "usernameToLower": "kaizer",
+      "id": "e92a32c7-7322-4751-a30e-89c004e8648d",
+      "authKey": "e92a32c7-7322-4751-a30e-89c004e8648doDrpOebMuRJWdPZFHrbSZlvg"
+    },
+    {
+      "username": "cuki",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "cuki",
+      "id": "8f7e5654-b285-426d-8119-3a7d15f65573",
+      "authKey": "8f7e5654-b285-426d-8119-3a7d15f65573ydYRIdVXZhuvKBrGSsXBlxHR"
+    },
+    {
+      "username": "cuki2",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "cuki2",
+      "id": "abc2d324-6819-4315-ae3c-e9eacbf0d2d4"
+    },
+    {
+      "username": "cukili",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "cukili",
+      "id": "82075141-e10f-40a9-ac3d-5746ccc4f8ed"
+    },
+    {
+      "username": "cukiiiii",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "cukiiiii",
+      "id": "fe8f93b1-ce89-4884-ba38-9a1b1ad454a0"
+    },
+    {
+      "username": "cukiiiiiii",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "cukiiiiiii",
+      "id": "f485bd0c-630f-4b4d-a2ef-330fa0bd27e7"
+    },
+    {
+      "username": "cukiiiiiiii",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "cukiiiiiiii",
+      "id": "2b6e58c8-916f-43f7-ac5e-2e67996acdc4"
+    },
+    {
+      "username": "kaizeriii",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "kaizeriii",
+      "id": "2382b9f4-ddee-4916-a5f5-72125a932bd7"
+    },
+    {
+      "username": "kaizzi",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "kaizzi",
+      "id": "18329006-706b-48e4-94b1-6d00c78526c0"
+    },
+    {
+      "username": "kaze",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "kaze",
+      "id": "2960b722-b984-4159-882a-77f7025f6b9f"
+    }
+  ],
+  "cookies": [
+    {
+      "text": "Test",
+      "category": "Home",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 10,
+      "dislikes": 15,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:30.290Z",
+      "id": "2dae28aa-ee64-4bc1-8591-29284d88c9e9"
+    },
+    {
+      "text": "May the Force with you",
+      "category": "WOrk",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 16,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:56.482Z",
+      "id": "e2fdbf82-54c3-488f-add4-9af3262c2572",
+      "hours": 9
+    },
+    {
+      "text": "Hello!",
+      "category": "Home",
+      "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "likes": 11,
+      "dislikes": 9,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T06:24:18.743Z",
+      "id": "ea91a233-bcf3-48b6-933f-05857f4aea87"
+    },
+    {
+      "text": "dasdffads",
+      "category": "fasdfdsfsda",
+      "img": "fasdfdsfsda",
+      "userId": "8f7e5654-b285-426d-8119-3a7d15f65573",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2015-09-10T12:48:30.964Z",
+      "id": "80f0d39b-7bfa-44a7-b28e-4e37bd9dacc2"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!--<h2>TODOs</h2>-->
+<!--<a href="#/todos/add">Add new</a>-->
+<!--{{#each this}}-->
+  <!--<h3><a href="#/todos?category={{category}}">{{category}}</a></h3>-->
+  <!--{{#each items}}-->
+    <!--<div class="todo-box" data-id="{{id}}">-->
+      <!--<label class="checkbox">-->
+        <!--{{#if state}}-->
+          <!--<input type="checkbox" checked />-->
+        <!--{{else}}-->
+          <!--<input type="checkbox" />-->
+        <!--{{/if}}-->
+        <!--<strong>{{text}}</strong>-->
+      <!--</label>-->
+    <!--</div>-->
+  <!--{{/each}}-->
+<!--{{/each}}-->
+<h2>TODOs</h2>
+<a href="#/todos/add">Add new TODO</a>
+{{#if this}}
+    <ul>
+        {{#each this}}
+            <li class="todo-item" data-id="{{id}}">
+                <label>
+                    {{#if state}}
+                        <input class="todo-state" type="checkbox" checked />
+                    {{else}}
+                        <input class="todo-state" type="checkbox" />
+                    {{/if}}
+                    {{text}}
+                </label>
+            </li>
+        {{/each}}
+    </ul>
+{{else}}
+    <h3>No TODOs</h3>
+{{/if}}

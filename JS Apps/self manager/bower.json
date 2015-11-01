@@ -1,0 +1,32 @@
+{
+  "name": "self manager",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kaizer04/Telerik-Academy-2015-2016",
+  "authors": [
+    "kaizer04 <kaizer0505@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "handlebars": "~4.0.2",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4",
+    "sammy": "~0.7.6",
+    "sha1": "http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js",
+    "toastr": "~2.1.2"
+  }
+}

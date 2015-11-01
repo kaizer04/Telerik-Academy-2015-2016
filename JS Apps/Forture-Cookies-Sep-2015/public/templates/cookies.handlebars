@@ -1,0 +1,13 @@
+<div><a class="btn btn-success" href="#/cookie/add">Add Fortune Cookie</a></div>
+{{#each this}}
+    <div class="row">
+        <h4>{{text}}</h4>
+        <h5>{{category}}</h5>
+        <img src="{{img}}" alt="Image" height="142" width="242">
+        <p>Likes: {{likes}}</p>
+        <p>DisLikes: {{dislikes}}</p>
+
+        <div><button class="btn btn-default" id="btn-share">Share</button></div>
+        <hr>
+    </div>
+{{/each}}
