@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-SequenceInList", "01-SequenceInList\01-SequenceInList.csproj", "{07A6DF8E-D0BD-46D1-AE5C-EC3E9235505B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-ReverseIntsWithStack", "02-ReverseIntsWithStack\02-ReverseIntsWithStack.csproj", "{61775C8A-2460-46EF-B2DE-A28C60DDEBF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-SortListInIncreasingOrder", "03-SortListInIncreasingOrder\03-SortListInIncreasingOrder.csproj", "{DD8362F4-897E-4362-83E4-50BAF5FCE24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-FindsLongestSubsequenceOfEqualNumbers", "04-FindsLongestSubsequenceOfEqualNumbers\04-FindsLongestSubsequenceOfEqualNumbers.csproj", "{690A5EC0-2E01-4759-A2C4-9AAD07974622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-RemovesAllNegativeNumbers", "05-RemovesAllNegativeNumbers\05-RemovesAllNegativeNumbers.csproj", "{047FDC70-DAEB-4CDF-93B5-2E2794853798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A6DF8E-D0BD-46D1-AE5C-EC3E9235505B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A6DF8E-D0BD-46D1-AE5C-EC3E9235505B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A6DF8E-D0BD-46D1-AE5C-EC3E9235505B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A6DF8E-D0BD-46D1-AE5C-EC3E9235505B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61775C8A-2460-46EF-B2DE-A28C60DDEBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61775C8A-2460-46EF-B2DE-A28C60DDEBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61775C8A-2460-46EF-B2DE-A28C60DDEBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61775C8A-2460-46EF-B2DE-A28C60DDEBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8362F4-897E-4362-83E4-50BAF5FCE24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8362F4-897E-4362-83E4-50BAF5FCE24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8362F4-897E-4362-83E4-50BAF5FCE24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8362F4-897E-4362-83E4-50BAF5FCE24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690A5EC0-2E01-4759-A2C4-9AAD07974622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690A5EC0-2E01-4759-A2C4-9AAD07974622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690A5EC0-2E01-4759-A2C4-9AAD07974622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690A5EC0-2E01-4759-A2C4-9AAD07974622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047FDC70-DAEB-4CDF-93B5-2E2794853798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047FDC70-DAEB-4CDF-93B5-2E2794853798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047FDC70-DAEB-4CDF-93B5-2E2794853798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047FDC70-DAEB-4CDF-93B5-2E2794853798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
