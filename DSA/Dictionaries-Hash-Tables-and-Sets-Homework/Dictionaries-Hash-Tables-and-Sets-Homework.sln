@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-CountValues", "01-CountValues\01-CountValues.csproj", "{68017ABE-CBDD-446A-AEC5-9ACA5B06E6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-OddNumberOfTimes", "02-OddNumberOfTimes\02-OddNumberOfTimes.csproj", "{141158D0-AC5D-44E6-B209-03AF7C40F0AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-WordOccurance", "03-WordOccurance\03-WordOccurance.csproj", "{1B776826-5BC7-4E14-A5E1-C8246C2FFBBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTables", "..\..\..\..\Telerik\DSA\Demos\Hash-Tables-and-Sets-Demos\HashTables\HashTables.csproj", "{548AE8C5-4D39-4B7A-9A72-1ED1B040DF08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68017ABE-CBDD-446A-AEC5-9ACA5B06E6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68017ABE-CBDD-446A-AEC5-9ACA5B06E6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68017ABE-CBDD-446A-AEC5-9ACA5B06E6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68017ABE-CBDD-446A-AEC5-9ACA5B06E6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141158D0-AC5D-44E6-B209-03AF7C40F0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141158D0-AC5D-44E6-B209-03AF7C40F0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141158D0-AC5D-44E6-B209-03AF7C40F0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141158D0-AC5D-44E6-B209-03AF7C40F0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B776826-5BC7-4E14-A5E1-C8246C2FFBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B776826-5BC7-4E14-A5E1-C8246C2FFBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B776826-5BC7-4E14-A5E1-C8246C2FFBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B776826-5BC7-4E14-A5E1-C8246C2FFBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548AE8C5-4D39-4B7A-9A72-1ED1B040DF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548AE8C5-4D39-4B7A-9A72-1ED1B040DF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548AE8C5-4D39-4B7A-9A72-1ED1B040DF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548AE8C5-4D39-4B7A-9A72-1ED1B040DF08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
