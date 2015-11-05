@@ -64,6 +64,7 @@
             {
                 Console.Write("{0}, ", leaf.Value);
             }
+
             Console.WriteLine();
 
             // 3. Find all middle nodes
@@ -73,7 +74,29 @@
             {
                 Console.Write("{0}, ", node.Value);
             }
+
             Console.WriteLine();
+
+            // 4. Find the longest path from the root
+            var longestPath = FindLongestPath(FindRoot(nodes));
+            Console.WriteLine("Longest path from the root: {0}", longestPath);
+            Console.WriteLine("Number of levels: {0}", longestPath + 1);
+        }
+
+        private static int FindLongestPath(Node<int> root)
+        {
+            if (root.Children.Count == 0)
+            {
+                return 0;
+            }
+
+            int maxPath = 0;
+            foreach (var node in root.Children)
+            {
+                maxPath = Math.Max(maxPath, FindLongestPath(node));
+            }
+
+            return maxPath + 1;
         }
 
         private static List<Node<int>> FindAllMiddleNodes(Node<int>[] nodes)
