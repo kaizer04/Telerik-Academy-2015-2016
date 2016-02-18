@@ -12,6 +12,7 @@
         public Post()
         {
             this.Tags = new HashSet<Tag>();
+            this.Votes = new HashSet<PostVote>();
         }
 
         public int Id { get; set; }
@@ -30,5 +31,7 @@
         public DateTime? DeletedOn { get; set; }
 
         public virtual ICollection<Tag> Tags { get; set; }
+
+        public virtual ICollection<PostVote> Votes { get; set; }
     }
 }
