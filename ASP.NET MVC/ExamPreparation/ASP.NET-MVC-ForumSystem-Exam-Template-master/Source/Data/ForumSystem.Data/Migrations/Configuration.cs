@@ -19,11 +19,25 @@ namespace ForumSystem.Data.Migrations
 
         protected override void Seed(ApplicationDbContext context)
         {
+            if (!context.Feedbacks.Any())
+            {
+                for (int i = 1; i <= 18; i++)
+                {
+                    var feedback = new Feedback
+                    {
+                        Title = $"Feedback {i}",
+                        Content = $"Feedback <b>content</b> {i}"
+                    };
+
+                    context.Feedbacks.Add(feedback);
+                    context.SaveChanges();
+                }
+            }
             
             if (!context.Tags.Any())
             {
                 var tagList = new List<Tag>();
-                for (int i = 1; i < 20; i++)
+                for (int i = 1; i <= 20; i++)
                 {
                     var tag = new Tag() { Name = $"Tag {i}" };
                     context.Tags.Add(tag);
