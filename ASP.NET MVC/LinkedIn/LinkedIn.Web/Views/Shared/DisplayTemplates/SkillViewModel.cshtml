@@ -1,0 +1,22 @@
+﻿@model LinkedIn.Web.ViewModels.SkillViewModel
+
+<div>
+    <strong>@Model.Name</strong>
+    <div id="endorsements-@Model.Id">
+        Count: @Model.EndorcementsCount
+        <br />
+        Endorsers: @Html.DisplayFor(x => x.Endorcers)
+    </div>
+
+    @using (Ajax.BeginForm("EndorseUserForSkill", "Users", new { id = Model.Id }, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = string.Format("endorsements-{0}", Model.Id)
+    }))
+    {
+        @Html.AntiForgeryToken()
+
+        <input type="submit" value="+" />
+    }
+</div>

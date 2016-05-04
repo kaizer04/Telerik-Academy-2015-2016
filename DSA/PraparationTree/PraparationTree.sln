@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPath", "MaxPath\MaxPath.csproj", "{DF106F3D-6543-4DFE-8E29-AABDAD53824F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firm", "Firm\Firm.csproj", "{12194180-CC83-4DAF-BD4C-9081B6BB780A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskWinsRiskLose", "RiskWinsRiskLose\RiskWinsRiskLose.csproj", "{9C395C0B-31EE-4800-8AD7-36B047E7B623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF106F3D-6543-4DFE-8E29-AABDAD53824F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF106F3D-6543-4DFE-8E29-AABDAD53824F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF106F3D-6543-4DFE-8E29-AABDAD53824F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF106F3D-6543-4DFE-8E29-AABDAD53824F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12194180-CC83-4DAF-BD4C-9081B6BB780A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12194180-CC83-4DAF-BD4C-9081B6BB780A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12194180-CC83-4DAF-BD4C-9081B6BB780A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12194180-CC83-4DAF-BD4C-9081B6BB780A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C395C0B-31EE-4800-8AD7-36B047E7B623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C395C0B-31EE-4800-8AD7-36B047E7B623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C395C0B-31EE-4800-8AD7-36B047E7B623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C395C0B-31EE-4800-8AD7-36B047E7B623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

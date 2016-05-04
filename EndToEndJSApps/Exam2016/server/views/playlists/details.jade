@@ -1,0 +1,15 @@
+extends ../shared/layout
+block main-content
+    h1 Playlist Details
+    row
+        .col-md-6
+            p#playlist-id.hidden #{playlist._id}
+            p Title: #{playlist.title}
+            p Description: #{playlist.description}
+            p Category: #{playlist.category}
+            p Video:
+                a(href="#{playlist.video}") #{playlist.video}
+            p Date: #{playlist.date}
+            p Creator: #{playlist.creator}
+            p Private: #{playlist.isPrivate ? 'Yes' : 'No'}
+            p RATING: #{playlist.totalAvgRating}
